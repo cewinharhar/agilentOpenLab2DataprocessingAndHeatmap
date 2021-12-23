@@ -106,7 +106,7 @@ def main():
         "heatmap_name", metavar="Heatmap name",help="Name the JPEG output file", type=str)
 
     heatmap.add_argument( 
-        "ConcRange", metavar="Concentration range",help="Change the max. concentration shown in the heatmap", type=float, default=None, required=False)
+        "ConcRange", metavar="Concentration range",help="Change the max. concentration shown in the heatmap", type=float, default=None)
 
     heatmap.add_argument("--orientation", metavar="Orientation of heatmap", choices=["horizontal", "vertical"], help="Do you want the plot to be horizontal or vertical?")
 
